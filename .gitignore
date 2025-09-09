@@ -1,0 +1,80 @@
+# macOS
+.DS_Store
+*.xcuserstate
+xcuserdata/
+
+# Swift Package Manager
+.build/
+.swiftpm/
+Package.resolved
+/*.xcodeproj
+
+# Xcode
+*.xcworkspace/
+*.xcodeproj/
+!*.xcodeproj/project.pbxproj
+!*.xcworkspace/contents.xcworkspacedata
+DerivedData/
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# Playgrounds
+timeline.xctimeline
+playground.xcworkspace
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# ConnectOnion specific
+.connectonion/
+*.behavior.json
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Testing
+.coverage/
+*.lcov
+
+# Documentation build
+docs/_build/
+docs/.build/
+
+# Temporary files
+*.tmp
+.tmp/
+tmp/
+
+# Log files
+*.log
+logs/
+
+# Dependencies
+Packages/
+.package.pins
+
+# Build artifacts
+*.o
+*.a
+*.dylib
+*.so
+*.dll
+*.exe
+
+# Python (for comparison with Python version)
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+venv/
+.pytest_cache/
